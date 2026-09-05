@@ -2,15 +2,15 @@
 
 CustomCraft is a production-ready, multi-platform e-commerce ecosystem designed for custom manufacturing and automated inventory management. The platform allows users to dynamically design, validate, and order modular furniture assets, while providing administrators with rule-based compatibility engines, order fulfillment workflows, and predictive inventory analytics.
 
-## 🌐 System Architecture
+## System Architecture
 The platform is decoupled into three specialized, production-grade repositories:
-*   **`frontend-web`** – Admin & Manager ERP Dashboard built with React, Vite, and TypeScript.
-*   **`backend-api`** – Secure, high-performance RESTful API engine built with .NET Core and C#.
-*   **`mobile-app`** – Cross-platform customer commerce application built with React Native (Expo) and TypeScript.
+*   **`FrontEnd_Web`** – Admin & Manager ERP Dashboard built with React, Vite, and TypeScript.
+*   **`BackEnd_API`** – Secure, high-performance RESTful API engine built with .NET Core and C#.
+*   **`Mobile_App`** – Cross-platform customer commerce application built with React Native (Expo) and TypeScript.
 
 ---
 
-## 🛠️ Core Engineering Features Implemented
+## Core Engineering Features Implemented
 
 ### 1. Rule-Based Component Compatibility Engine
 *   Developed a dynamic, server-side matrix validation framework in **.NET C#** to enforce real-time component compatibility rules (e.g., matching specific structural frames with validated table-tops).
@@ -30,6 +30,6 @@ The platform is decoupled into three specialized, production-grade repositories:
 
 ---
 
-## 🚀 Technical Highlights
+## Technical Highlights
 *   **End-to-End Type Safety:** Enforced matching TypeScript interfaces on both the Web and Mobile layers against strongly typed C# DTOs on the backend API.
 *   **Decoupled Multi-Role Auth:** Designed secure access control ensuring Clerks, Administrators, and Customers only access their respective operational endpoints.
